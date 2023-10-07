@@ -149,13 +149,15 @@ select {
 
 .furniture {
 	margin-top:20px;
+	width: 100%;
+
 	padding: 2rem 5rem;
 	background-image: url(./images/stock.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-    gap:1rem;
+    /* gap:1rem; */
    
 }
 
@@ -173,7 +175,7 @@ select {
 .essantial-text {
 	font-size: 2rem;
 	font-style: italic;
-	padding: 20px;
+	padding: 20px 17px 20px 20px;
 }
 
 .lightning {
@@ -191,6 +193,7 @@ select {
 .lightning-text{
 	width:80%;
 	float:right;
+	font-size: 1.3rem;
 	padding: 2rem;
 	margin-bottom: -200px;
 	direction: ltr;
